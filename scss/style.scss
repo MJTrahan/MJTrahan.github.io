@@ -12,17 +12,17 @@ $primary: #9d8f8f;
 
 html {
 	// overflow-x: hidden;
-	background: $black;
+	background: $white;
 }
 body {
 	font-family: $font-primary;
 	font-size: 14px;
 	line-height: 1.8;
 	font-weight: 400;
-	color: #9da1a5;
+	color: $darken;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background: #191a1c;
+	background: $white;
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
@@ -80,7 +80,7 @@ strong{
 }
 .navbar .nav-menu li .dot {
   display: block;
-  color: #fff;
+  color: $darken;
   padding: 5px 0;
 }
 .navbar .nav-menu li .dot::before,
@@ -93,6 +93,7 @@ strong{
   transition: all .3s ease;
 }
 .navbar .nav-menu li .dot::before {
+  width: 5px;
   width: 5px;
   height: 5px;
   right: 0;
@@ -173,7 +174,7 @@ strong{
 }
 .navbar-2 .nav-menu li .dot {
   display: block;
-  color: #fff;
+  color:$darken;
   padding: 5px 0;
 }
 .navbar-2 .nav-menu li .dot::before,
@@ -567,7 +568,7 @@ strong{
 		font-size: 18px;
 		font-weight: 400;
 		font-family: $font-secondary;
-		color: $white;
+		color: $primary;
 		font-style: italic;
 	}
 	span{
@@ -1017,7 +1018,7 @@ textarea.form-control {
 
 
 .ftco-section {
-	padding: 7em 0;
+	padding: 5em 0;
 }
 
 .ftco-no-pt{
