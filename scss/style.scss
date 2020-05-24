@@ -9,6 +9,7 @@ $black: #000;
 $darken: #191a1c;
 $light: #9da1a5;
 $primary: #9d8f8f;
+$blue: #34d8eb;
 
 html {
 	// overflow-x: hidden;
@@ -30,6 +31,7 @@ body {
 		width: 100%;
 	}
 }
+
 a {
 	transition: .3s all ease;
 	color: $primary;
@@ -41,8 +43,12 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
 	line-height: 1.5;
-	color: $white;
+	color: $black;
 	font-weight: normal;
+}
+
+.blue {
+	color: $blue;
 }
 
 strong{
@@ -568,7 +574,7 @@ strong{
 		font-size: 18px;
 		font-weight: 400;
 		font-family: $font-secondary;
-		color: $primary;
+		color: $blue;
 		font-style: italic;
 	}
 	span{
@@ -674,8 +680,12 @@ strong{
 	}
 
 	.border-primary {
-	    border-color: $primary !important;
+	    border-color: $black !important;
 	}
+}
+
+.primary {
+	color: $primary;
 }
 
 
@@ -692,6 +702,7 @@ strong{
 	}
 	.media-body{
 		h3{
+			color: $black;
 			font-size: 16px;
 			font-weight: 400;
 			text-transform: uppercase;
@@ -1260,7 +1271,7 @@ textarea.form-control {
 	}
 	h2{
 		font-size: 16px;
-		color: $light;
+		color: $blue;
 		line-height: 1.4;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -1667,7 +1678,7 @@ textarea.form-control {
 .contact-section {
 	width: 100%;
 	.box{
-		background: lighten($darken,3%);
+		background: $white;
 		width: 100%;
 		h3{
 			font-size: 16px;

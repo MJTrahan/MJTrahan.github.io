@@ -9688,8 +9688,12 @@ a:hover {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: #fff;
+  color: #000;
   font-weight: normal;
+}
+
+.blue {
+  color: #34d8eb;
 }
 
 strong {
@@ -9835,7 +9839,7 @@ strong {
 
 .navbar-2 .nav-menu li .dot {
   display: block;
-  color: #fff;
+  color: #191a1c;
   padding: 5px 0;
 }
 
@@ -10164,7 +10168,7 @@ strong {
   font-size: 18px;
   font-weight: 400;
   font-family: "Noto Serif", serif;
-  color: #9d8f8f;
+  color: #34d8eb;
   font-style: italic;
 }
 .blockquote span {
@@ -10259,7 +10263,11 @@ strong {
   left: 0;
 }
 .progress-circle .border-primary {
-  border-color: #9d8f8f !important;
+  border-color: #000 !important;
+}
+
+.primary {
+  color: #9d8f8f;
 }
 
 .services {
@@ -10279,6 +10287,7 @@ strong {
   color: #9d8f8f;
 }
 .services .media-body h3 {
+  color: #000;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -10808,7 +10817,7 @@ textarea.form-control {
 }
 .heading-section h2 {
   font-size: 16px;
-  color: #9da1a5;
+  color: #34d8eb;
   line-height: 1.4;
   font-weight: 700;
   text-transform: uppercase;
@@ -11162,7 +11171,7 @@ textarea.form-control {
   width: 100%;
 }
 .contact-section .box {
-  background: #202224;
+  background: #fff;
   width: 100%;
 }
 .contact-section .box h3 {
